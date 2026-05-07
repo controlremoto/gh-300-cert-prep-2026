@@ -4,13 +4,13 @@
 
 ### Describe Risks and Limitations of Generative AI Tools
 
-| Aspect                | Description                                                                 |
-| :---                  | :---                                                                        |
-| Accuracy              | AI-generated content may be factually incorrect or misleading.               |
-| Bias                  | Outputs can reflect or amplify biases present in training data.              |
-| Contextual Gaps       | Lacks full understanding of user intent or business context.                 |
-| Security/Privacy      | May inadvertently generate or expose sensitive information.                  |
-| Over-reliance         | Excessive trust in AI can reduce critical thinking and code review rigor.    |
+| Aspect            | Description                                                              |
+| :---------------- | :----------------------------------------------------------------------- |
+| Accuracy          | AI-generated content may be factually incorrect or misleading.           |
+| Bias              | Outputs can reflect or amplify biases present in training data.          |
+| Contextual Gaps   | Lacks full understanding of user intent or business context.             |
+| Security/Privacy  | May inadvertently generate or expose sensitive information.              |
+| Over-reliance     | Excessive trust in AI can reduce critical thinking and code review rigor.|
 
 **Exam Tricky Points:**
 - Generative AI is not a replacement for human judgment.
@@ -20,13 +20,14 @@
 
 ### Describe Ethical and Responsible AI Usage
 
-| Principle         | Key Practice                                                                 |
-| :---              | :---                                                                         |
-| Transparency      | Disclose AI involvement in content/code generation.                          |
-| Fairness          | Avoid using AI in ways that reinforce unfair bias or discrimination.         |
-| Accountability    | Maintain human oversight and responsibility for final outputs.               |
-| Privacy           | Do not input or generate confidential or personal data with AI tools.        |
-| Compliance        | Follow organizational and legal requirements for AI use.                     |
+| Principle              | Key Practice                                                                                                | Use Case Example                                                                                     |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------  | :--------------------------------------------------------------------------------------------------- |
+| Fairness               | Treat all people fairly; avoid bias in data and outcomes.                                                   | Testing models with balanced demographic samples to ensure consistent recommendations for all users. |
+| Reliability and Safety | Ensure AI systems perform reliably and safely; minimize unintended harm.                                    | Implementing robust error handling and monitoring to prevent unsafe or unpredictable AI behavior.    |
+| Privacy and Security   | Protect user privacy and data security; collect only necessary data and use strong encryption.              | Anonymizing personal data and using secure vaults for key storage in AI-powered applications.        |
+| Inclusiveness          | Empower everyone and engage diverse users; design for accessibility and global reach.                       | Building interfaces that support screen readers and language translation for underrepresented groups.|
+| Transparency           | Make AI systems understandable; clearly explain how they operate and their limitations.                     | Providing documentation and audit logs that explain AI decision-making processes to users.           |
+| Accountability         | Maintain human oversight and responsibility for AI system outcomes; monitor and mitigate risks continuously.| Regularly reviewing AI outputs and updating models to address issues or unintended consequences.     |
 
 **Exam Tricky Points:**
 - Ethical use includes respecting copyright and licensing of generated code.
@@ -36,8 +37,8 @@
 
 ### Identify Potential Harms and Mitigation Strategies of AI Usage
 
-| Potential Harm         | Mitigation Strategy                                                      |
-| :---                  | :---                                                                     |
+| Potential Harm        | Mitigation Strategy                                                      |
+| :-------------------- | :-------------------------------------------------------------------     |
 | Misinformation        | Human review, fact-checking, and validation.                             |
 | Bias Amplification    | Use diverse datasets, monitor outputs, and apply bias detection tools.   |
 | Privacy Breaches      | Avoid sharing sensitive data, anonymize inputs, and follow data policies.|
